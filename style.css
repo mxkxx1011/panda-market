@@ -1,0 +1,148 @@
+:root {
+    --main-color : #3692ff;
+    --error-color : #F74747;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    max-width: 1920px;
+    width: 100%;
+    color: #161346;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 200px;
+    width: 100%;
+  }
+
+  .sky{
+    background-color: #CFE5FF;
+    height: 540px;
+    width: 100%;
+  }
+
+  .container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .main-top-panda{
+    background-image: url('images/Img_home_top.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-starta;
+  }
+
+  .main-bottom-panda {
+    background-image: url('images/Img_home_bottom.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .title{
+    font-family: Pretendard;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color:#374151;
+  }
+
+  .home-content{
+    background-color: #ffffff;
+    height: 720px;
+
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .home-content:nth-child(even) {
+    justify-content: right;
+  }
+
+  .home-banner{
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color:var(--main-color);
+  }
+
+  .home-img{
+    width: 588px;
+    height: 444px;
+  }
+
+  
+  .home-description{
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #374151;
+  }
+
+footer{
+  height: 160px;
+  background-color: #111827;
+  padding: 32px 200px 0 ;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  text-align: center;
+}
+
+.footer-company{
+  color:#9CA3AF;
+}
+
+
+.footer-link{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.footer-imgs{
+  display: flex;
+  gap: 13px;
+}
+
+.footer-imgs > img {
+  width: 20px;
+  height: 20px;
+}
